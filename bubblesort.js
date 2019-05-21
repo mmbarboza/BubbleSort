@@ -2,7 +2,7 @@ function swap(num1, num2, arr, i){
     let currNum = num1;
     arr[i] = num2;
     arr[i+1] = currNum;
-    console.log("num1", num1)
+    //console.log("num1", num1)
     //return [num1, num2];
 }
 
@@ -16,7 +16,7 @@ while (rerun){
     if ( num1 > num2){
       swap(num1, num2, arr, i);
       rerun = true;
-      console.log(arr);
+     // console.log(arr);
      }
   }
 
